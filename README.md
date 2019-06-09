@@ -2,3 +2,5 @@
 
 Usuário: admin
 Senha: admin
+
+Collection postman
