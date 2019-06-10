@@ -23,10 +23,10 @@ Body Employee:
     "department": "Novo"
 }
 
-Incluir no header:
+Incluir no header:/n
 Authorization:Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296
 
 
-Gerar um novo token informar no body:
+Gerar um novo token informar no body:/n
     username:admin
     password:admin
