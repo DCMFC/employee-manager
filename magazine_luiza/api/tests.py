@@ -114,7 +114,7 @@ class UpdatePutEmployeeTest(BaseEmployeeTest):
             data=json.dumps(self.valid_payload),
             content_type='application/json'
         )
-        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_update_put_invalid_payload_employee(self):
         response = self.client.put(
@@ -141,7 +141,7 @@ class UpdatePatchEmployeeTest(BaseEmployeeTest):
             data=json.dumps(self.valid_partial_payload),
             content_type='application/json'
         )
-        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_update_patch_invalid_payload_employee(self):
         response = self.client.patch(
