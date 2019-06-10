@@ -18,6 +18,11 @@
 						"name": "Content-Type",
 						"value": "application/javascript",
 						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -46,7 +51,13 @@
 			"name": "ListaPorId",
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": ""
@@ -73,7 +84,13 @@
 			"name": "ListaPorIdInvalido",
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": ""
@@ -103,8 +120,12 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
 						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
 						"type": "text"
 					}
 				],
@@ -137,9 +158,13 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -168,13 +193,19 @@
 			"name": "RemovePorId",
 			"request": {
 				"method": "DELETE",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/employee/2",
+					"raw": "http://127.0.0.1:8000/employee/4",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -185,7 +216,7 @@
 					"port": "8000",
 					"path": [
 						"employee",
-						"2"
+						"4"
 					]
 				}
 			},
@@ -195,7 +226,13 @@
 			"name": "RemovePorIdInvalido",
 			"request": {
 				"method": "DELETE",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": ""
@@ -225,8 +262,12 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
 						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
 						"type": "text"
 					}
 				],
@@ -259,8 +300,12 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
 						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
 						"type": "text"
 					}
 				],
@@ -293,9 +338,13 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -327,9 +376,13 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -361,9 +414,13 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -395,9 +452,13 @@
 				"header": [
 					{
 						"key": "Content-Type",
-						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 5d7e793b803ee0bfbab7d90333ec0b663ea1b296",
+						"type": "text"
 					}
 				],
 				"body": {
@@ -417,6 +478,47 @@
 					"path": [
 						"employee",
 						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GerarToken",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api-token/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api-token",
+						""
 					]
 				}
 			},

@@ -3,12 +3,14 @@ from rest_framework.views import status
 from rest_framework.response import Response
 from .models import Employee
 from .serializers import EmployeeSerializer
+from rest_framework.permissions import IsAuthenticated
 
 
 class EmployeeViewSet(viewsets.ModelViewSet):
 
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
+    permission_classes = (IsAuthenticated,)
 
     def retrieve(self, request, pk):
         try:

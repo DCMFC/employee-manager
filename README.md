@@ -14,3 +14,4 @@ Collection postman: Testes.postman_collection.json
 | DELETE        | /employee/{id}| Remove um "Employee" com base no {id}           |
 | PUT           | /employee/{id}| Atualiza um "Employee" informando todos os dados|
 | PATCH         | /employee/{id}| Atualiza um "Employee" parcialmente             |
+| POST          | /api-token/   | Gerar token de acesso                           |
