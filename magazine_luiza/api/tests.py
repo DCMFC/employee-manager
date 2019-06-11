@@ -3,6 +3,8 @@ from django.urls import reverse
 from rest_framework.views import status
 from .models import Employee
 from .serializers import EmployeeSerializer
+from django.contrib.auth.models import User
+from rest_framework.authtoken.models import Token
 import json
 
 
@@ -41,7 +43,9 @@ class BaseEmployeeTest(APITestCase):
         self.invalid_partial_payload = {
             "department": ""
         }
-
+        self.user = User.objects.create_user("user", "user@email.com", "pass")
+        self.token = Token.objects.create(user=self.user)
+        self.client.credentials(HTTP_AUTHORIZATION='Token ' + self.token.key)
 
 class GetAllEmployeesTest(BaseEmployeeTest):
 
