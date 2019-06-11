@@ -34,3 +34,11 @@ Gerar um novo token informar no body:
 
     username:admin
     password:admin
+
+Instalação:
+    
+    git clone https://github.com/DCMFC/employee-manager.git
+    cd employee-manager/magazine_luiza/
+    pip3 install -r requirements.txt
+    python3 manage.py runserver
+    
