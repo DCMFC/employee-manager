@@ -5,7 +5,11 @@ Site Administrador:
     Usuário: admin
     Senha: admin
 
-Collection postman: Testes.postman_collection.json
+Collection postman:
+    
+    Testes.postman_collection.json
+
+APIs
 
 | Verbo         | URI           | Descrição                                       |
 | ------------- | ------------- | ------------------------------------------------|
